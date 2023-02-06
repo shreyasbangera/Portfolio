@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import EvolutionFitness from "../assets/EvolutionFitness.png";
+import EvolutionFitness from "../assets/Evolutionfitness.png";
 import Stylecraft from "../assets/Stylecraft.png";
 import todolist from "../assets/todolist.png";
 import cryptoxchange from "../assets/cryptoxchange.png";
