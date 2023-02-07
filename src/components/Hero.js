@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-// import heroimg from "../assets/undraw_programming_re_kg9v.svg";
+import heroimg from "../assets/undraw_programming_re_kg9v.svg";
 import { BsDownload } from "react-icons/bs";
 
 const Hero = () => {
@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="md:w-[35vw]  items-center">
-        {/* <img className="w-full" src={heroimg}></img> */}
+        <img className="w-full" src={heroimg}></img>
       </div>
     </div>
   );
