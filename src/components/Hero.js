@@ -2,10 +2,15 @@ import React from "react";
 import { Link } from "react-scroll";
 import heroimg from "../assets/undraw_programming_re_kg9v.svg";
 import { BsDownload } from "react-icons/bs";
+import { motion } from 'framer-motion'
 
 const Hero = () => {
   return (
-    <div
+    <motion.div
+    layout
+    initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    transition={{ duration: 0.5 }}
       id="hero"
       className="p-5 lg:px-20 md:px-10  md:pt-40 pt-32 text-white font-semibold text-lg leading-10 pb-20 flex md:flex-row items-center md:justify-between flex-col gap-24"
     >
@@ -46,7 +51,7 @@ const Hero = () => {
       <div className="md:w-[35vw]  items-center">
         <img className="w-full" src={heroimg}></img>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
