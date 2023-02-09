@@ -3,7 +3,7 @@ import { MdCall, MdEmail, MdLocationPin } from "react-icons/md";
 
 const Contact = () => {
   return (
-    <div
+    <section
       id="contact"
       className="bg-[#0F0C0C] text-white font-semibold p-5 py-10 lg:px-20 md:px-10"
     >
@@ -31,7 +31,7 @@ const Contact = () => {
           <p className="mt-4 text-lg  text-blue-500">Mangalore</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -3,7 +3,7 @@ import { BsGithub, BsLinkedin, BsTwitter } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className=" text-white font-semibold p-5 pt-10 lg:px-20 md:px-10 ">
+    <section className=" text-white font-semibold p-5 pt-10 lg:px-20 md:px-10 ">
       <p className="text-center text-xl font-bold">Shreyas Y Bangera</p>
       <ul className="flex justify-center gap-10 mt-10">
         <li>
@@ -24,7 +24,7 @@ const Footer = () => {
         </li>
       </ul>
       <p className="text-center text-gray-600 mt-20">©️2023 Made by Shreyas</p>
-    </div>
+    </section>
   );
 };
 
