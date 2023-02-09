@@ -7,12 +7,16 @@ import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <div id="projects" className="p-5 py-10 text-white font-semibold lg:px-20">
+    <section
+      id="projects"
+      className="p-5 py-10 text-white font-semibold lg:px-20"
+    >
       <h1 className=" text-center text-4xl">Projects</h1>
       <motion.div
         initial={{ opacity: 0, y: 200 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ type:"spring", bounce:0.4, duration: 0.8 }}
+        transition={{ type: "spring", duration: 0.5 }}
+        viewport={{ once: true }}
         className="justify-center mt-10 flex pt-10 flex-wrap gap-10"
       >
         <div className="shadow-2xl bg-black lg:w-[30vw] xl:w-[20vw] md:w-[40vw] rounded-b-2xl">
@@ -108,7 +112,7 @@ const Projects = () => {
           </div>
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 
