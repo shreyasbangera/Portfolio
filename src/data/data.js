@@ -1,3 +1,8 @@
+import Evolutionfitness from "../assets/Evolutionfitness.png";
+import Stylecraft from "../assets/Stylecraft.png";
+import Cryptoxchange from "../assets/cryptoxchange.png";
+import todolist from "../assets/todolist.png";
+
 export const skills = [
   {
     id: 1,
@@ -43,5 +48,36 @@ export const skills = [
     name: "Github",
     image:
       "https://icones.pro/wp-content/uploads/2021/06/icone-github-violet.png",
+  },
+];
+
+export const projects = [
+  {
+    title: "Evolution Fitness",
+    image: Evolutionfitness,
+    description: "A fitness website that offers a wide range of exercises.",
+    github: "https://github.com/shreyasbangera/Evolution-fitness",
+    live: "http://evolutionfitness.vercel.app",
+  },
+  {
+    title: "Stylecraft",
+    image: Stylecraft,
+    description: "E-commerce website, featuring a user-friendly interface.",
+    github: "https://github.com/shreyasbangera/Stylecraft",
+    live: "https://stylecraft-one.vercel.app",
+  },
+  {
+    title: "CryptoXchange",
+    image: Cryptoxchange,
+    description: "A website that fetches Cryptocurrency exchange rates.",
+    github: "https://github.com/shreyasbangera/CryptoXchange",
+    live: "https://cryptoxchangeshreyas.netlify.app",
+  },
+  {
+    title: "To-do list",
+    image: todolist,
+    description: "A simple to-do list app for managing daily tasks.",
+    github: "https://github.com/shreyasbangera/Todo-list-app",
+    live: "https://todo-app-shreyas.vercel.app",
   },
 ];
