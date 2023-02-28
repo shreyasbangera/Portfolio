@@ -2,6 +2,7 @@ import Evolutionfitness from "../assets/Evolutionfitness.png";
 import Stylecraft from "../assets/Stylecraft.png";
 import Cryptoxchange from "../assets/cryptoxchange.png";
 import todolist from "../assets/todolist.png";
+import YoutubeClone from "../assets/youtube-clone.png";
 
 export const skills = [
   {
@@ -52,6 +53,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "Youtube Clone",
+    image: YoutubeClone,
+    description:
+      "Clone of video streaming website, Youtube using React, Youtube API.",
+    github: "https://github.com/shreyasbangera/Youtube-clone",
+    live: "https://youtubebyshreyas.vercel.app",
+  },
   {
     title: "Evolution Fitness",
     image: Evolutionfitness,

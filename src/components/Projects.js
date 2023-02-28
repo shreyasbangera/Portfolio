@@ -14,9 +14,8 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", duration: 0.5 }}
         viewport={{ once: true }}
-        className="justify-center mt-10 flex pt-10 flex-wrap gap-10"
+        className="justify-center mt-10 flex pt-10 flex-wrap lg:gap-16 gap-10"
       >
-        {" "}
         {projects.map(({ title, image, description, github, live }) => (
           <div className="shadow-2xl bg-black lg:w-[30vw] xl:w-[20vw] md:w-[40vw] rounded-b-2xl">
             <img src={image} />
@@ -31,7 +30,7 @@ const Projects = () => {
                 </a>
                 <a
                   href={live}
-                  className="p-1 bg-[#FF8473] rounded-2xl px-8 hover:bg-gray-900"
+                  className="p-1 bg-[#FF8473] rounded-2xl px-8 hover:bg-white hover:text-black"
                 >
                   Live
                 </a>
