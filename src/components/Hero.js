@@ -35,14 +35,14 @@ const Hero = () => {
                 offset={-100}
                 duration={600}
               >
-                <button className="mt-10 bg-[#FF8473] py-1 px-4 rounded">
+                <button className="mt-10 bg-[#FF8473] py-1 px-4 rounded hover:bg-white hover:text-black">
                   Contact me
                 </button>
               </Link>
             </div>
             <a
               href="https://drive.google.com/file/d/1u59dQz0FEtUFLJWcv_yDbCBUgXsPmU1X/view?usp=sharing"
-              className="mt-10 py-1 px-4 rounded border flex items-center"
+              className="mt-10 py-1 px-4 rounded border flex items-center hover:bg-white hover:text-black"
             >
               Resume
               <BsDownload className="ml-2" />
